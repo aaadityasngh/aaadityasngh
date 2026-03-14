@@ -10,16 +10,12 @@
 <!-- TYPING ANIMATION — rotating one-liners -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1500&color=8338EC&center=true&vCenter=true&repeat=true&random=false&width=580&height=40&lines=%F0%9F%A7%A0+building+AI+that+actually+ships;%F0%9F%94%A5+notebooks+%E2%86%92+production+in+one+sprint;%F0%9F%A4%96+I+talk+to+LLMs+more+than+humans;%E2%9A%A1+if+it+can%E2%80%99t+scale%2C+it%E2%80%99s+a+hobby+project;%F0%9F%9A%80+experiment+%E2%86%92+validate+%E2%86%92+containerize+%E2%86%92+deploy" alt="Typing SVG" /></a>
 
-<br/>
-
 <!-- CLEAN SOCIAL BADGES — matching palette -->
 <a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=3A86FF" alt="LinkedIn"/></a>&nbsp;
 <a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=FF006E" alt="Email"/></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=aaadityasngh&style=flat-square&color=8338EC&label=visitors" alt="Profile views"/>
 
 </div>
-
-<br/>
 
 <!-- ─── ABOUT ─── -->
 
@@ -46,8 +42,6 @@ export default aditya;
 <br clear="right"/>
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
 
 <!-- ─── WHAT I SHIP ─── -->
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;What I Ship
@@ -92,11 +86,7 @@ export default aditya;
 
 </div>
 
-<br/>
-
-<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
+<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
 
 <!-- ─── TECH ARSENAL ─── -->
 ## 🛠️ &nbsp;Tech Arsenal
@@ -146,11 +136,7 @@ export default aditya;
 
 </div>
 
-<br/>
-
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
 
 <!-- ─── CURRENT FOCUS ─── -->
 ## 🎯 &nbsp;Current Focus
@@ -176,11 +162,7 @@ mindmap
 
 </div>
 
-<br/>
-
-<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
+<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
 
 <!-- ─── FEATURED PROJECTS ─── -->
 ## 📌 &nbsp;Featured Projects
@@ -193,8 +175,6 @@ mindmap
 
 <sub>Real-world EDA pipelines with statistical validation & feature transformation</sub>
 
-<br/>
-
 `✅ Done`
 
 </td>
@@ -203,8 +183,6 @@ mindmap
 **🌐 Streamlit & Flask ML Deploy**
 
 <sub>RESTful APIs & interactive ML apps for model inference</sub>
-
-<br/>
 
 `✅ Done`
 
@@ -215,19 +193,38 @@ mindmap
 
 <sub>Training → Evaluation → Experiment Tracking → Containerized Deployment</sub>
 
-<br/>
-
 `🔨 Building`
 
 </td>
 </tr>
 </table>
 
-<br/>
-
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<br/>
+<!-- ─── TASK BOARD ─── -->
+## 📋 &nbsp;Current Sprint
+
+> *What I'm building right now — updated regularly.*
+
+```js
+const sprint = {
+    current  : "End-to-End ML Systems",
+    status   : "in_progress 🔨",
+    blockers : "none — shipping at full speed 🚀",
+    next_up  : "LLM Orchestration Pipeline",
+};
+```
+
+| Status | Task | Notes |
+|:------:|:-----|:------|
+| ✅ | EDA & Feature Engineering pipelines | `shipped` |
+| ✅ | Streamlit & Flask ML deployment | `shipped` |
+| 🔨 | End-to-End ML system with experiment tracking | `in progress` |
+| 📋 | Production-ready LLM orchestration system | `up next` |
+| 📋 | RAG pipeline with hybrid search | `planned` |
+| 📋 | Cloud-native ML infrastructure setup | `planned` |
+
+<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
 
 <!-- ─── STATS ─── -->
 ## 📈 &nbsp;GitHub Stats
@@ -238,21 +235,17 @@ mindmap
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaadityasngh&layout=compact&hide_border=true&border_radius=12&langs_count=8&bg_color=0D1117&title_color=FF006E&text_color=8B949E" height="170"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaadityasngh&hide_border=true&border_radius=12&background=0D1117&ring=FF006E&fire=FF006E&currStreakLabel=8338EC&sideLabels=3A86FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" width="58%"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaadityasngh&hide_border=true&radius=12&bg_color=0D1117&color=8B949E&line=FF006E&point=3A86FF&area_color=8338EC&area=true" width="92%"/>
 
 </div>
 
-<br/>
-
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
 
 <!-- ─── ROADMAP ─── -->
 ## 🗺️ &nbsp;Engineering Roadmap
@@ -272,11 +265,60 @@ mindmap
   └─────────────────────────────────────────────────────────────┘
 ```
 
+<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
+
+<!-- ─── FUN ZONE ─── -->
+## 🎮 &nbsp;Fun Zone
+
+> *Take a break! Here's something fun for you.* 🕹️
+
+<details>
+<summary>🐍 <b>Python Puzzle #1</b> — What does this print? <i>(Click to reveal!)</i></summary>
 <br/>
+
+```python
+x = [1, 2, 3]
+y = x
+y.append(4)
+print(len(x))
+```
+
+**Answer:** `4` — Lists are mutable! `y = x` creates a reference, not a copy. Both `x` and `y` point to the same list. 🎯
+
+</details>
+
+<details>
+<summary>🤖 <b>AI Puzzle #2</b> — Spot the bug! <i>(Click to reveal!)</i></summary>
+<br/>
+
+```python
+import numpy as np
+data = np.array([1, 2, 3, 4, 5])
+normalized = data / data.mean
+print(normalized)
+```
+
+**Answer:** `data.mean` is a method, not a property! It should be `data.mean()` with parentheses. Without `()`, you're dividing by the method object itself! 🐛
+
+</details>
+
+<details>
+<summary>🧩 <b>Emoji Puzzle #3</b> — Decode this! <i>(Click to reveal!)</i></summary>
+<br/>
+
+`🐍 + 🔥 + 📊 = ???`
+
+**Answer:** **PyTorch!** &nbsp; (Python 🐍 + Torch/Fire 🔥 + Data 📊) 🎉
+
+</details>
+
+<div align="center">
+
+🕹️ &nbsp; **Bored?** &nbsp; [Play 2048 →](https://play2048.co) &nbsp;|&nbsp; [Play Wordle →](https://www.nytimes.com/games/wordle/index.html)
+
+</div>
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
 
 <!-- ─── VIBE CHECK ─── -->
 ## ✨ &nbsp;Vibe Check
@@ -291,17 +333,13 @@ mindmap
 &nbsp;
 <img src="https://img.shields.io/badge/notebooks_killed-many-FF006E?style=flat-square&logo=jupyter&logoColor=white" alt="notebooks"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" alt="Dev Quote" width="65%"/>
 
 </div>
 
-<br/>
-
-<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<br/>
+<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
 
 <!-- ─── CONNECT ─── -->
 ## 🤝 &nbsp;Let's Connect
@@ -312,7 +350,7 @@ mindmap
 &nbsp;&nbsp;
 <a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Shoot_me_an_email-0D1117?style=for-the-badge&logo=gmail&logoColor=FF006E" alt="Email"/></a>
 
-<br/><br/>
+<br/>
 
 ```
 💬 Open to: collabs • ML consulting • building cool stuff • memes about gradient descent
@@ -320,18 +358,12 @@ mindmap
 
 </div>
 
-<br/>
-
 <!-- ─── FOOTER ─── -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=1&section=footer" width="100%"/>
-
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,28&height=80&section=footer&text=&fontSize=1" width="100%"/>
 
 **`⚡ Engineering AI systems that scale beyond notebooks.`**
-
-<br/>
 
 <sub>
 <img src="https://img.shields.io/badge/built_with-☕_+_🤖_+_💡-0D1117?style=flat-square" />
@@ -341,7 +373,7 @@ mindmap
 <img src="https://img.shields.io/badge/debugged_at-2AM-0D1117?style=flat-square" />
 </sub>
 
-<br/><br/>
+<br/>
 
 <sub>if you read this far, you're either a recruiter or an LLM. either way — let's talk. 🤝</sub>
 

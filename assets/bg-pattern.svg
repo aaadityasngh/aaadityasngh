@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28">
+  <defs>
+    <linearGradient id="soft-glow" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#FF006E" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#FF006E" stop-opacity="0.07"/>
+      <stop offset="50%" stop-color="#8338EC" stop-opacity="0.10"/>
+      <stop offset="85%" stop-color="#3A86FF" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#3A86FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="micro-dots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="0.6" fill="#8338EC" opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <!-- soft gradient base with gentle pulse -->
+  <rect width="900" height="28" fill="url(#soft-glow)" rx="14">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtle dot overlay -->
+  <rect width="900" height="28" fill="url(#micro-dots)" rx="14" opacity="0.5"/>
+</svg>
