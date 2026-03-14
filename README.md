@@ -134,14 +134,6 @@ mindmap
 
 ## 📌 Featured Projects
 
-<div align="center">
-
-<a href="#">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=aaadityasngh&repo=aaadityasngh&theme=radical&hide_border=true&border_radius=15" />
-</a>
-
-</div>
-
 | Project | What It Does | Status |
 |:--------|:------------|:------:|
 | 🔬 **EDA & Feature Engineering** | Real-world EDA pipelines with statistical validation & feature transformation | ✅ Done |
@@ -164,7 +156,7 @@ mindmap
 <br/>
 
 <!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaadityasngh&theme=redical&hide_border=true&radius=16&area=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaadityasngh&theme=radical&hide_border=true&radius=16&area=true" width="95%"/>
 
 </div>
 
