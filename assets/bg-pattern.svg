@@ -8,7 +8,7 @@
       <stop offset="100%" stop-color="#3A86FF" stop-opacity="0"/>
     </linearGradient>
     <pattern id="micro-dots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
-      <circle cx="7" cy="7" r="0.6" fill="#8338EC" opacity="0.12"/>
+      <circle cx="7" cy="7" r="0.6" fill="#8338EC" opacity="0.18"/>
     </pattern>
   </defs>
 
