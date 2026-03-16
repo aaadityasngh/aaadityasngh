@@ -8,67 +8,48 @@
 <!-- ▓▓▓ HERO BANNER ▓▓▓ -->
 <img src="./assets/header.svg" width="100%"/>
 
-<br/>
-
-<!-- INSTANT CTA — recruiter sees this in first 2 seconds -->
 <a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
 <a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=aaadityasngh&style=for-the-badge&color=FFD600&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
-<br/>
-
-<!-- ▓▓▓ ABOUT — 6 SECOND SCAN ▓▓▓ -->
+<!-- ▓▓▓ ABOUT ▓▓▓ -->
 
 <img align="right" alt="Robot buddy" width="140" src="./assets/robot.svg"/>
 
-## ⚡ tl;dr
+## Hi there 👋
 
-> **AI/ML Engineer** who ships models to production — not just notebooks.
-> I build **LLM systems**, **RAG pipelines**, and **end-to-end ML infrastructure**
-> that actually scales.
+<h3>AI Engineer | Machine Learning Engineer | LLM Systems</h3>
 
-```
-📍 Building AI systems that go from experiment → production in one sprint
-☕ Fueled by mass chai and 2 AM debugging sessions
-🎯 Currently: End-to-End ML Systems with experiment tracking
-```
+Engineering scalable AI systems — from data to deployment.
 
 <br clear="right"/>
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<br/>
+<!-- ▓▓▓ WHAT I DO ▓▓▓ -->
 
-<!-- ▓▓▓ WHAT I DO — THE MONEY SECTION ▓▓▓ -->
+## 🚀 What I Do
 
-## 🧠 What I Build
+I design and deploy production-grade machine learning systems with a focus on:
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### `AI & ML Core`
-
 ```
-🔮  LLM Systems & Fine-tuning
-🔍  RAG Pipelines (Hybrid Search)
+🔮  Large Language Models (LLMs)
+🔍  Retrieval-Augmented Generation (RAG)
 ⚙️  End-to-End ML Pipelines
-📦  MLOps & Model Serving
-🧪  Experiment Tracking (MLflow)
 ```
 
 </td>
 <td width="50%" valign="top">
 
-### `Systems & Infra`
-
 ```
-🌐  Production AI APIs (FastAPI)
-🐳  Containerized ML Deployments
-🔄  CI/CD for ML Workflows
-☁️  Cloud-native ML Infrastructure
+📦  MLOps & Model Deployment
+🌐  Backend-integrated AI Systems
 📊  Scalable Data Processing
 ```
 
@@ -79,120 +60,127 @@
 <div align="center">
 
 ```
-  experiment  →  validate  →  containerize  →  deploy  →  monitor  →  iterate
-      💡            ✅            🐳             🚀          📈          🔄
+  experimentation  →  reproducible training  →  containerized deployment  →  API exposure
+        💡                    ✅                        🐳                       🚀
 ```
 
 </div>
 
-<br/>
+<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
+
+<!-- ▓▓▓ CURRENT FOCUS ▓▓▓ -->
+
+## 🧠 Current Focus
+
+- LLM orchestration & hybrid search systems
+- Feature engineering & statistical validation
+- CI/CD for ML workflows
+- Containerized deployment (Docker)
+- Cloud-native ML infrastructure
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<br/>
+<!-- ▓▓▓ TECH STACK ▓▓▓ -->
 
-<!-- ▓▓▓ TECH STACK — VISUAL SCAN ▓▓▓ -->
-## 🛠️ Tech Stack
+## 🛠 Core Tech Stack
 
 <div align="center">
 
-**`ML & AI`** &nbsp;&nbsp;
+**`Machine Learning`** &nbsp;&nbsp;
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-%23F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-%230194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-%23337AB7?style=flat-square&logo=xgboost&logoColor=white)
 
 **`LLM & NLP`** &nbsp;&nbsp;
+![RAG](https://img.shields.io/badge/RAG_Pipelines-%238338EC?style=flat-square&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-%231C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/Transformers-%23FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-%23412991?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-%238338EC?style=flat-square&logoColor=white)
 ![Vector DBs](https://img.shields.io/badge/Vector_DBs-%233A86FF?style=flat-square&logoColor=white)
+![Embeddings](https://img.shields.io/badge/Embeddings-%23412991?style=flat-square&logoColor=white)
 
-**`Data`** &nbsp;&nbsp;
+**`Data & Feature Engineering`** &nbsp;&nbsp;
 ![NumPy](https://img.shields.io/badge/NumPy-%23013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458?style=flat-square&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-%23017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![EDA](https://img.shields.io/badge/EDA-%233F4F75?style=flat-square&logoColor=white)
+![Statistical Modeling](https://img.shields.io/badge/Statistical_Modeling-%23017CEE?style=flat-square&logoColor=white)
+![Feature Pipelines](https://img.shields.io/badge/Feature_Pipelines-%2322C55E?style=flat-square&logoColor=white)
 
-**`Backend & DevOps`** &nbsp;&nbsp;
-![Python](https://img.shields.io/badge/Python-%233776AB?style=flat-square&logo=python&logoColor=white)
+**`Backend & Deployment`** &nbsp;&nbsp;
 ![FastAPI](https://img.shields.io/badge/FastAPI-%23009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-%23000?style=flat-square&logo=flask&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-%233776AB?style=flat-square&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI/CD-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**`Systems`** &nbsp;&nbsp;
 ![Linux](https://img.shields.io/badge/Linux-%23FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-%23F05032?style=flat-square&logo=git&logoColor=white)
+![Multi-threading](https://img.shields.io/badge/Multi--threading-%23333?style=flat-square&logoColor=white)
+![Logging](https://img.shields.io/badge/Logging-%23F05032?style=flat-square&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-%23003B57?style=flat-square&logo=sqlite&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 </div>
 
-<br/>
-
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<br/>
-
 <!-- ▓▓▓ FEATURED PROJECTS ▓▓▓ -->
+
 ## 📌 Featured Projects
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-**🔬 EDA & Feature Eng.**
+**🔬 Exploratory Data Analysis & Feature Engineering**
 
-Real-world EDA pipelines with statistical validation & feature transformation
-
-![Status](https://img.shields.io/badge/SHIPPED-%2322C55E?style=flat-square)
-
-</td>
-<td width="33%" align="center">
-
-**🌐 ML Deploy (API + UI)**
-
-RESTful APIs & Streamlit apps for model inference at scale
+Real-world EDA pipelines with statistical validation and feature transformation.
 
 ![Status](https://img.shields.io/badge/SHIPPED-%2322C55E?style=flat-square)
 
 </td>
 <td width="33%" align="center">
 
-**🏗️ E2E ML System**
+**🌐 Streamlit & Flask ML Deployment**
 
-Training → Eval → Experiment Tracking → Containerized Deploy
+RESTful APIs and interactive ML applications for model inference.
 
-![Status](https://img.shields.io/badge/BUILDING-%23FFD600?style=flat-square&logoColor=black)
+![Status](https://img.shields.io/badge/SHIPPED-%2322C55E?style=flat-square)
+
+</td>
+<td width="33%" align="center">
+
+**🏗️ End-to-End ML Systems**
+
+Training → Evaluation → Experiment Tracking → Containerized Deployment.
+
+![Status](https://img.shields.io/badge/IN_PROGRESS-%23FFD600?style=flat-square&logoColor=black)
 
 </td>
 </tr>
 </table>
 
-<br/>
-
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<br/>
+<!-- ▓▓▓ CURRENT PATH ▓▓▓ -->
 
-<!-- ▓▓▓ CURRENT SPRINT ▓▓▓ -->
-## 📋 Current Sprint
+## 📈 Current Engineering Path
 
-| &nbsp; | Task | Status |
-|:---:|:---|:---|
-| ✅ | EDA & Feature Engineering pipelines | `shipped` |
-| ✅ | Streamlit & Flask ML deployment | `shipped` |
-| 🔨 | End-to-End ML system + experiment tracking | `in progress` |
-| 📋 | Production LLM orchestration system | `up next` |
-| 📋 | RAG pipeline with hybrid search | `planned` |
-| 📋 | Cloud-native ML infra setup | `planned` |
+Day-by-day public build toward:
 
-<br/>
+| &nbsp; | Goal |
+|:---:|:---|
+| 🚀 | Production LLM Systems |
+| 🔍 | RAG-based Applications |
+| ☁️ | Scalable ML Infrastructure |
+| 🔬 | Research-to-Production AI Engineering |
 
 <div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
 
-<br/>
-
 <!-- ▓▓▓ GITHUB STATS ▓▓▓ -->
+
 ## 📈 GitHub Stats
 
 <div align="center">
@@ -201,54 +189,40 @@ Training → Eval → Experiment Tracking → Containerized Deploy
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaadityasngh&layout=compact&hide_border=false&border_radius=0&langs_count=8&bg_color=FFFDF7&title_color=000&text_color=333&border_color=000" height="170"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=aaadityasngh&hide_border=false&border_radius=0&background=FFFDF7&ring=FFD600&fire=FF5733&currStreakLabel=000&sideLabels=000&currStreakNum=000&sideNums=333&dates=666&border=000" width="58%"/>
 
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=aaadityasngh&hide_border=false&radius=0&bg_color=FFFDF7&color=333&line=FFD600&point=000&area_color=FFD600&area=true&custom_title=Contribution%20Graph" width="92%"/>
 
 </div>
 
-<br/>
-
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<br/>
-
 <!-- ▓▓▓ CONNECT ▓▓▓ -->
-## 🤝 Let's Talk
+
+## 🌐 Connect
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
-<a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-
-<br/><br/>
-
-```
-💬 Open to:  full-time roles  •  ML consulting  •  collabs  •  building cool AI stuff
-```
+<a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/ddeaditya@gmail.com-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
-<br/>
-
 <!-- ▓▓▓ FOOTER ▓▓▓ -->
+
 <div align="center">
 
 <img src="./assets/bg-pattern.svg" width="100%"/>
 
-**`⚡ I don't just train models — I ship systems that run them.`**
+**`⚡ Engineering AI systems that scale beyond notebooks`**
 
 <br/>
 
-<sub>built with mass ☕ + 🤖 + too much ambition &nbsp;·&nbsp; debugged at 2 AM &nbsp;·&nbsp; shipped before sunrise</sub>
-
-<br/>
-
-<sub>if you read this far — you're either a recruiter or an LLM. either way, let's talk 🤝</sub>
+<sub>built with ☕ + 🤖 + ambition &nbsp;·&nbsp; shipped before sunrise</sub>
 
 </div>
