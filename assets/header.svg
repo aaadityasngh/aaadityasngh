@@ -1,123 +1,102 @@
-<svg width="900" height="220" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="260" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF006E;stop-opacity:1" />
-      <stop offset="40%" style="stop-color:#8338EC;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3A86FF;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF006E;stop-opacity:0" />
-      <stop offset="50%" style="stop-color:#8338EC;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3A86FF;stop-opacity:0" />
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <style>
-      @keyframes gradientShift {
-        0% { stop-color: #FF006E; }
-        33% { stop-color: #8338EC; }
-        66% { stop-color: #3A86FF; }
-        100% { stop-color: #FF006E; }
-      }
-      @keyframes fadeSlideUp {
-        from { transform: translateY(15px); opacity: 0; }
-        to { transform: translateY(0); opacity: 1; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
       }
       @keyframes blink {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
       }
-      @keyframes pulse {
-        0%, 100% { opacity: 0.3; }
-        50% { opacity: 0.8; }
+      @keyframes slideIn {
+        from { transform: translateX(-20px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
       }
-      @keyframes scanline {
-        0% { transform: translateY(-220px); }
-        100% { transform: translateY(220px); }
+      @keyframes pop {
+        0% { transform: scale(0.8); opacity: 0; }
+        60% { transform: scale(1.05); }
+        100% { transform: scale(1); opacity: 1; }
       }
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-6px); }
-      }
-      #grad stop:nth-child(1) { animation: gradientShift 6s ease-in-out infinite; }
-      #grad stop:nth-child(2) { animation: gradientShift 6s ease-in-out 2s infinite; }
-      #grad stop:nth-child(3) { animation: gradientShift 6s ease-in-out 4s infinite; }
-      .subtitle { animation: fadeSlideUp 1s ease-out 0.3s both; }
-      .tagline { animation: fadeSlideUp 1s ease-out 0.6s both; }
+      .main-card { animation: pop 0.6s ease-out both; }
+      .tag { animation: slideIn 0.5s ease-out both; }
+      .tag1 { animation-delay: 0.3s; }
+      .tag2 { animation-delay: 0.45s; }
+      .tag3 { animation-delay: 0.6s; }
+      .tag4 { animation-delay: 0.75s; }
       .cursor { animation: blink 1s step-end infinite; }
-      .dot { animation: pulse 3s ease-in-out infinite; }
-      .scanline { animation: scanline 4s linear infinite; opacity: 0.03; }
-      .float { animation: float 3s ease-in-out infinite; }
-      .grid { opacity: 0.04; }
+      .star { animation: float 2.5s ease-in-out infinite; }
+      .star2 { animation: float 2.5s ease-in-out 0.8s infinite; }
+      .star3 { animation: float 2.5s ease-in-out 1.6s infinite; }
     </style>
   </defs>
-  
+
   <!-- Background -->
-  <rect width="900" height="220" fill="#0D1117"/>
-  
-  <!-- Subtle grid pattern -->
-  <g class="grid">
-    <line x1="0" y1="0" x2="0" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="60" y1="0" x2="60" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="120" y1="0" x2="120" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="180" y1="0" x2="180" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="240" y1="0" x2="240" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="300" y1="0" x2="300" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="360" y1="0" x2="360" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="420" y1="0" x2="420" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="480" y1="0" x2="480" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="540" y1="0" x2="540" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="600" y1="0" x2="600" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="660" y1="0" x2="660" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="720" y1="0" x2="720" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="780" y1="0" x2="780" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="840" y1="0" x2="840" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="900" y1="0" x2="900" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="0" y1="0" x2="900" y2="0" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="0" y1="44" x2="900" y2="44" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="0" y1="88" x2="900" y2="88" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="0" y1="132" x2="900" y2="132" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="0" y1="176" x2="900" y2="176" stroke="#58A6FF" stroke-width="0.5"/>
-    <line x1="0" y1="220" x2="900" y2="220" stroke="#58A6FF" stroke-width="0.5"/>
+  <rect width="900" height="260" fill="#FFFDF7" rx="0"/>
+
+  <!-- Subtle grid dots -->
+  <g opacity="0.08">
+    <circle cx="30" cy="30" r="2" fill="#000"/><circle cx="60" cy="30" r="2" fill="#000"/>
+    <circle cx="90" cy="30" r="2" fill="#000"/><circle cx="120" cy="30" r="2" fill="#000"/>
+    <circle cx="150" cy="30" r="2" fill="#000"/><circle cx="180" cy="30" r="2" fill="#000"/>
+    <circle cx="720" cy="30" r="2" fill="#000"/><circle cx="750" cy="30" r="2" fill="#000"/>
+    <circle cx="780" cy="30" r="2" fill="#000"/><circle cx="810" cy="30" r="2" fill="#000"/>
+    <circle cx="840" cy="30" r="2" fill="#000"/><circle cx="870" cy="30" r="2" fill="#000"/>
+    <circle cx="30" cy="230" r="2" fill="#000"/><circle cx="60" cy="230" r="2" fill="#000"/>
+    <circle cx="90" cy="230" r="2" fill="#000"/><circle cx="120" cy="230" r="2" fill="#000"/>
+    <circle cx="780" cy="230" r="2" fill="#000"/><circle cx="810" cy="230" r="2" fill="#000"/>
+    <circle cx="840" cy="230" r="2" fill="#000"/><circle cx="870" cy="230" r="2" fill="#000"/>
   </g>
-  
-  <!-- Scanline effect -->
-  <rect class="scanline" width="900" height="4" fill="white"/>
-  
-  <!-- Decorative dots -->
-  <circle cx="50" cy="40" r="2" fill="#FF006E" class="dot"/>
-  <circle cx="850" cy="40" r="2" fill="#3A86FF" class="dot" style="animation-delay: 1s"/>
-  <circle cx="50" cy="180" r="2" fill="#8338EC" class="dot" style="animation-delay: 2s"/>
-  <circle cx="850" cy="180" r="2" fill="#FF006E" class="dot" style="animation-delay: 0.5s"/>
-  <circle cx="150" cy="30" r="1.5" fill="#3A86FF" class="dot" style="animation-delay: 1.5s"/>
-  <circle cx="750" cy="190" r="1.5" fill="#8338EC" class="dot" style="animation-delay: 2.5s"/>
-  
-  <!-- Corner brackets -->
-  <path d="M 20 20 L 20 40 M 20 20 L 40 20" stroke="#FF006E" stroke-width="1.5" fill="none" opacity="0.4"/>
-  <path d="M 880 20 L 880 40 M 880 20 L 860 20" stroke="#3A86FF" stroke-width="1.5" fill="none" opacity="0.4"/>
-  <path d="M 20 200 L 20 180 M 20 200 L 40 200" stroke="#8338EC" stroke-width="1.5" fill="none" opacity="0.4"/>
-  <path d="M 880 200 L 880 180 M 880 200 L 860 200" stroke="#FF006E" stroke-width="1.5" fill="none" opacity="0.4"/>
-  
-  <!-- Main title -->
-  <text x="450" y="95" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="52" font-weight="bold" fill="url(#grad)" filter="url(#glow)" class="float">
+
+  <!-- Main yellow card with brutal shadow -->
+  <rect x="99" y="29" width="702" height="140" rx="0" fill="#000"/>
+  <rect x="93" y="23" width="702" height="140" rx="0" fill="#FFD600" stroke="#000" stroke-width="3.5" class="main-card"/>
+
+  <!-- Name -->
+  <text x="444" y="80" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', sans-serif" font-size="52" font-weight="900" fill="#000" letter-spacing="-1">
     ADITYA SINGH
   </text>
-  
-  <!-- Subtitle -->
-  <text x="450" y="135" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="15" fill="#8B949E" letter-spacing="4" class="subtitle">
-    AI ENGINEER · ML SYSTEMS · LLM ARCHITECT
+
+  <!-- Role line -->
+  <text x="444" y="115" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="16" font-weight="700" fill="#000" letter-spacing="1" opacity="0.75">
+    AI / ML ENGINEER
   </text>
-  
-  <!-- Gradient divider line -->
-  <line x1="250" y1="155" x2="650" y2="155" stroke="url(#lineGrad)" stroke-width="1"/>
-  
+
   <!-- Tagline -->
-  <text x="450" y="180" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#58A6FF" class="tagline">
-    &gt; shipping AI systems that scale beyond notebooks_<tspan class="cursor">▊</tspan>
+  <text x="444" y="148" text-anchor="middle" font-family="'SF Mono', 'Fira Code', monospace" font-size="12" fill="#000" opacity="0.5">
+    notebooks → production in one sprint_<tspan class="cursor">▊</tspan>
   </text>
+
+  <!-- Neo-brutal tag pills -->
+  <g class="tag tag1">
+    <rect x="198" y="185" width="108" height="36" rx="0" fill="#000" transform="translate(3,3)"/>
+    <rect x="198" y="185" width="108" height="36" rx="0" fill="#FF90E8" stroke="#000" stroke-width="2.5"/>
+    <text x="252" y="208" text-anchor="middle" font-family="'SF Mono', monospace" font-size="12" font-weight="700" fill="#000">🧠 LLMs</text>
+  </g>
+
+  <g class="tag tag2">
+    <rect x="336" y="185" width="108" height="36" rx="0" fill="#000" transform="translate(3,3)"/>
+    <rect x="336" y="185" width="108" height="36" rx="0" fill="#A6FAFF" stroke="#000" stroke-width="2.5"/>
+    <text x="390" y="208" text-anchor="middle" font-family="'SF Mono', monospace" font-size="12" font-weight="700" fill="#000">⚙️ MLOps</text>
+  </g>
+
+  <g class="tag tag3">
+    <rect x="474" y="185" width="108" height="36" rx="0" fill="#000" transform="translate(3,3)"/>
+    <rect x="474" y="185" width="108" height="36" rx="0" fill="#B8FF57" stroke="#000" stroke-width="2.5"/>
+    <text x="528" y="208" text-anchor="middle" font-family="'SF Mono', monospace" font-size="12" font-weight="700" fill="#000">🚀 RAG</text>
+  </g>
+
+  <g class="tag tag4">
+    <rect x="612" y="185" width="108" height="36" rx="0" fill="#000" transform="translate(3,3)"/>
+    <rect x="612" y="185" width="108" height="36" rx="0" fill="#FFD600" stroke="#000" stroke-width="2.5"/>
+    <text x="666" y="208" text-anchor="middle" font-family="'SF Mono', monospace" font-size="12" font-weight="700" fill="#000">🐍 Python</text>
+  </g>
+
+  <!-- Decorative stars -->
+  <text x="55" y="80" font-size="28" class="star">✦</text>
+  <text x="830" y="100" font-size="22" class="star2">✦</text>
+  <text x="845" y="60" font-size="14" class="star3">✦</text>
+
+  <!-- Bottom border line -->
+  <rect x="0" y="248" width="900" height="12" fill="#000"/>
 </svg>
