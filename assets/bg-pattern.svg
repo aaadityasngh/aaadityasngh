@@ -1,22 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28">
-  <defs>
-    <linearGradient id="soft-glow" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0%" stop-color="#FF006E" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#FF006E" stop-opacity="0.07"/>
-      <stop offset="50%" stop-color="#8338EC" stop-opacity="0.10"/>
-      <stop offset="85%" stop-color="#3A86FF" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#3A86FF" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="micro-dots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
-      <circle cx="7" cy="7" r="0.6" fill="#8338EC" opacity="0.18"/>
-    </pattern>
-  </defs>
-
-  <!-- soft gradient base with gentle pulse -->
-  <rect width="900" height="28" fill="url(#soft-glow)" rx="14">
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- subtle dot overlay -->
-  <rect width="900" height="28" fill="url(#micro-dots)" rx="14" opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="20" viewBox="0 0 900 20">
+  <!-- Neo-brutal zigzag pattern -->
+  <rect width="900" height="20" fill="none"/>
+  <path d="M0,10 L15,2 L30,10 L45,2 L60,10 L75,2 L90,10 L105,2 L120,10 L135,2 L150,10 L165,2 L180,10 L195,2 L210,10 L225,2 L240,10 L255,2 L270,10 L285,2 L300,10 L315,2 L330,10 L345,2 L360,10 L375,2 L390,10 L405,2 L420,10 L435,2 L450,10 L465,2 L480,10 L495,2 L510,10 L525,2 L540,10 L555,2 L570,10 L585,2 L600,10 L615,2 L630,10 L645,2 L660,10 L675,2 L690,10 L705,2 L720,10 L735,2 L750,10 L765,2 L780,10 L795,2 L810,10 L825,2 L840,10 L855,2 L870,10 L885,2 L900,10" stroke="#000" stroke-width="2" fill="none" opacity="0.08"/>
+  <path d="M0,14 L15,18 L30,14 L45,18 L60,14 L75,18 L90,14 L105,18 L120,14 L135,18 L150,14 L165,18 L180,14 L195,18 L210,14 L225,18 L240,14 L255,18 L270,14 L285,18 L300,14 L315,18 L330,14 L345,18 L360,14 L375,18 L390,14 L405,18 L420,14 L435,18 L450,14 L465,18 L480,14 L495,18 L510,14 L525,18 L540,14 L555,18 L570,14 L585,18 L600,14 L615,18 L630,14 L645,18 L660,14 L675,18 L690,14 L705,18 L720,14 L735,18 L750,14 L765,18 L780,14 L795,18 L810,14 L825,18 L840,14 L855,18 L870,14 L885,18 L900,14" stroke="#000" stroke-width="1.5" fill="none" opacity="0.05"/>
 </svg>

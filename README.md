@@ -1,77 +1,76 @@
 <!-- ═══════════════════════════════════════════════════════════════
-     Hey recruiter 👀 — yes, I built this README from scratch too.
+     Hey recruiter 👀 — yes, I designed this README from scratch.
+     Neo-brutalism style. Bold. Intentional. Like my code.
      ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- CUSTOM ANIMATED HEADER -->
+<!-- ▓▓▓ HERO BANNER ▓▓▓ -->
 <img src="./assets/header.svg" width="100%"/>
 
-<!-- TYPING ANIMATION — rotating one-liners -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1500&color=8338EC&center=true&vCenter=true&repeat=true&random=false&width=580&height=40&lines=%F0%9F%A7%A0+building+AI+that+actually+ships;%F0%9F%94%A5+notebooks+%E2%86%92+production+in+one+sprint;%F0%9F%A4%96+I+talk+to+LLMs+more+than+humans;%E2%9A%A1+if+it+can%E2%80%99t+scale%2C+it%E2%80%99s+a+hobby+project;%F0%9F%9A%80+experiment+%E2%86%92+validate+%E2%86%92+containerize+%E2%86%92+deploy" alt="Typing SVG" /></a>
+<br/>
 
-<!-- CLEAN SOCIAL BADGES — matching palette -->
-<a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=3A86FF" alt="LinkedIn"/></a>&nbsp;
-<a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=FF006E" alt="Email"/></a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=aaadityasngh&style=flat-square&color=8338EC&label=visitors" alt="Profile views"/>
+<!-- INSTANT CTA — recruiter sees this in first 2 seconds -->
+<a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
+<a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=aaadityasngh&style=for-the-badge&color=FFD600&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
-<!-- ─── ABOUT ─── -->
+<br/>
 
-<img align="right" alt="Robot buddy" width="160" src="./assets/robot.svg"/>
+<!-- ▓▓▓ ABOUT — 6 SECOND SCAN ▓▓▓ -->
 
-### `> aditya.init()` &nbsp; 🧑‍💻
+<img align="right" alt="Robot buddy" width="140" src="./assets/robot.svg"/>
 
-```js
-// aditya.config.js — last updated: 2026
+## ⚡ tl;dr
 
-const aditya = {
-    name       : "Aditya Singh",
-    role       : "AI / ML Engineer",
-    superpower : "Notebooks → Production 🚀",
-    motto      : "Build fast. Ship faster. Break nothing.",
-    fun_fact   : "I mass-debug LLMs at 2 AM for fun 🤖",
-    coffee     : Infinity,
-    currently  : "training something that might be sentient 👀",
-};
+> **AI/ML Engineer** who ships models to production — not just notebooks.
+> I build **LLM systems**, **RAG pipelines**, and **end-to-end ML infrastructure**
+> that actually scales.
 
-export default aditya;
+```
+📍 Building AI systems that go from experiment → production in one sprint
+☕ Fueled by mass chai and 2 AM debugging sessions
+🎯 Currently: End-to-End ML Systems with experiment tracking
 ```
 
 <br clear="right"/>
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<!-- ─── WHAT I SHIP ─── -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;What I Ship
+<br/>
 
-> *I don't build models. I build **systems** that ship models.*
+<!-- ▓▓▓ WHAT I DO — THE MONEY SECTION ▓▓▓ -->
+
+## 🧠 What I Build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**`🧠 AI & ML Core`**
+### `AI & ML Core`
 
-| | |
-|:--|:--|
-| 🔮 | Large Language Models (LLMs) |
-| 🔍 | Retrieval-Augmented Generation (RAG) |
-| ⚙️ | End-to-End ML Pipelines |
-| 📦 | MLOps & Model Deployment |
+```
+🔮  LLM Systems & Fine-tuning
+🔍  RAG Pipelines (Hybrid Search)
+⚙️  End-to-End ML Pipelines
+📦  MLOps & Model Serving
+🧪  Experiment Tracking (MLflow)
+```
 
 </td>
 <td width="50%" valign="top">
 
-**`🔧 Systems & Infra`**
+### `Systems & Infra`
 
-| | |
-|:--|:--|
-| 🌐 | Backend-integrated AI Systems |
-| 📊 | Scalable Data Processing |
-| 🔄 | CI/CD for ML Workflows |
-| ☁️ | Cloud-native ML Infrastructure |
+```
+🌐  Production AI APIs (FastAPI)
+🐳  Containerized ML Deployments
+🔄  CI/CD for ML Workflows
+☁️  Cloud-native ML Infrastructure
+📊  Scalable Data Processing
+```
 
 </td>
 </tr>
@@ -81,300 +80,175 @@ export default aditya;
 
 ```
   experiment  →  validate  →  containerize  →  deploy  →  monitor  →  iterate
-     💡           ✅             🐳             🚀          📈          🔄
+      💡            ✅            🐳             🚀          📈          🔄
 ```
 
 </div>
 
-<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
-
-<!-- ─── TECH ARSENAL ─── -->
-## 🛠️ &nbsp;Tech Arsenal
-
-<div align="center">
-
-**`Machine Learning & AI`**
 <br/>
-![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=FF6F00)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0D1117?style=flat-square&logo=scikitlearn&logoColor=F7931E)
-![MLflow](https://img.shields.io/badge/MLflow-0D1117?style=flat-square&logo=mlflow&logoColor=0194E2)
-![XGBoost](https://img.shields.io/badge/XGBoost-0D1117?style=flat-square&logo=xgboost&logoColor=337AB7)
-
-**`LLM & NLP`**
-<br/>
-![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=flat-square&logo=langchain&logoColor=1C3C3C)
-![Transformers](https://img.shields.io/badge/Transformers-0D1117?style=flat-square&logo=huggingface&logoColor=FFD21E)
-![RAG Pipelines](https://img.shields.io/badge/RAG_Pipelines-0D1117?style=flat-square&logo=openai&logoColor=8338EC)
-![Vector DBs](https://img.shields.io/badge/Vector_DBs-0D1117?style=flat-square&logo=googledataflow&logoColor=3A86FF)
-![Embeddings](https://img.shields.io/badge/Embeddings-0D1117?style=flat-square&logo=semanticweb&logoColor=FF006E)
-
-**`Data & Feature Engineering`**
-<br/>
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=flat-square&logo=numpy&logoColor=013243)
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=flat-square&logo=pandas&logoColor=150458)
-![EDA](https://img.shields.io/badge/EDA-0D1117?style=flat-square&logo=plotly&logoColor=3F4F75)
-![Statistical Modeling](https://img.shields.io/badge/Statistical_Modeling-0D1117?style=flat-square&logo=r&logoColor=276DC3)
-![Feature Pipelines](https://img.shields.io/badge/Feature_Pipelines-0D1117?style=flat-square&logo=apacheairflow&logoColor=017CEE)
-
-**`Backend & Deployment`**
-<br/>
-![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688)
-![Flask](https://img.shields.io/badge/Flask-0D1117?style=flat-square&logo=flask&logoColor=FFFFFF)
-![REST APIs](https://img.shields.io/badge/REST_APIs-0D1117?style=flat-square&logo=postman&logoColor=FF6C37)
-![Streamlit](https://img.shields.io/badge/Streamlit-0D1117?style=flat-square&logo=streamlit&logoColor=FF4B4B)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=flat-square&logo=githubactions&logoColor=2088FF)
-
-**`Systems`**
-<br/>
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624)
-![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB)
-![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=flat-square&logo=sqlite&logoColor=003B57)
-![Git](https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032)
-![Multi-threading](https://img.shields.io/badge/Multithreading-0D1117?style=flat-square&logo=gnu&logoColor=A42E2B)
-
-</div>
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<!-- ─── CURRENT FOCUS ─── -->
-## 🎯 &nbsp;Current Focus
+<br/>
+
+<!-- ▓▓▓ TECH STACK — VISUAL SCAN ▓▓▓ -->
+## 🛠️ Tech Stack
 
 <div align="center">
 
-```mermaid
-mindmap
-  root((🎯 Focus))
-    🤖 LLM Systems
-      Orchestration
-      Hybrid Search
-    🔬 Data Science
-      Feature Engineering
-      Statistical Validation
-    🚀 MLOps
-      CI/CD Pipelines
-      Docker Deployments
-    ☁️ Cloud Native
-      ML Infrastructure
-      Scalable Systems
-```
+**`ML & AI`** &nbsp;&nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-%23F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-%230194E2?style=flat-square&logo=mlflow&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-%23337AB7?style=flat-square&logo=xgboost&logoColor=white)
+
+**`LLM & NLP`** &nbsp;&nbsp;
+![LangChain](https://img.shields.io/badge/LangChain-%231C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Transformers-%23FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI-%23412991?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-%238338EC?style=flat-square&logoColor=white)
+![Vector DBs](https://img.shields.io/badge/Vector_DBs-%233A86FF?style=flat-square&logoColor=white)
+
+**`Data`** &nbsp;&nbsp;
+![NumPy](https://img.shields.io/badge/NumPy-%23013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-%23150458?style=flat-square&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-%23017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+
+**`Backend & DevOps`** &nbsp;&nbsp;
+![Python](https://img.shields.io/badge/Python-%233776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-%23009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-%23000?style=flat-square&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%232496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-%23FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-%23F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
-<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
+<br/>
 
-<!-- ─── FEATURED PROJECTS ─── -->
-## 📌 &nbsp;Featured Projects
+<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
+
+<br/>
+
+<!-- ▓▓▓ FEATURED PROJECTS ▓▓▓ -->
+## 📌 Featured Projects
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-**🔬 EDA & Feature Engineering**
+**🔬 EDA & Feature Eng.**
 
-<sub>Real-world EDA pipelines with statistical validation & feature transformation</sub>
+Real-world EDA pipelines with statistical validation & feature transformation
 
-`✅ Done`
-
-</td>
-<td width="33%" align="center">
-
-**🌐 Streamlit & Flask ML Deploy**
-
-<sub>RESTful APIs & interactive ML apps for model inference</sub>
-
-`✅ Done`
+![Status](https://img.shields.io/badge/SHIPPED-%2322C55E?style=flat-square)
 
 </td>
 <td width="33%" align="center">
 
-**🏗️ End-to-End ML Systems**
+**🌐 ML Deploy (API + UI)**
 
-<sub>Training → Evaluation → Experiment Tracking → Containerized Deployment</sub>
+RESTful APIs & Streamlit apps for model inference at scale
 
-`🔨 Building`
+![Status](https://img.shields.io/badge/SHIPPED-%2322C55E?style=flat-square)
+
+</td>
+<td width="33%" align="center">
+
+**🏗️ E2E ML System**
+
+Training → Eval → Experiment Tracking → Containerized Deploy
+
+![Status](https://img.shields.io/badge/BUILDING-%23FFD600?style=flat-square&logoColor=black)
 
 </td>
 </tr>
 </table>
 
+<br/>
+
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<!-- ─── TASK BOARD ─── -->
-## 📋 &nbsp;Current Sprint
+<br/>
 
-> *What I'm building right now — updated regularly.*
+<!-- ▓▓▓ CURRENT SPRINT ▓▓▓ -->
+## 📋 Current Sprint
 
-```js
-const sprint = {
-    current  : "End-to-End ML Systems",
-    status   : "in_progress 🔨",
-    blockers : "none — shipping at full speed 🚀",
-    next_up  : "LLM Orchestration Pipeline",
-};
-```
-
-| Status | Task | Notes |
-|:------:|:-----|:------|
+| &nbsp; | Task | Status |
+|:---:|:---|:---|
 | ✅ | EDA & Feature Engineering pipelines | `shipped` |
 | ✅ | Streamlit & Flask ML deployment | `shipped` |
-| 🔨 | End-to-End ML system with experiment tracking | `in progress` |
-| 📋 | Production-ready LLM orchestration system | `up next` |
+| 🔨 | End-to-End ML system + experiment tracking | `in progress` |
+| 📋 | Production LLM orchestration system | `up next` |
 | 📋 | RAG pipeline with hybrid search | `planned` |
-| 📋 | Cloud-native ML infrastructure setup | `planned` |
+| 📋 | Cloud-native ML infra setup | `planned` |
+
+<br/>
 
 <div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
 
-<!-- ─── STATS ─── -->
-## 📈 &nbsp;GitHub Stats
+<br/>
+
+<!-- ▓▓▓ GITHUB STATS ▓▓▓ -->
+## 📈 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=aaadityasngh&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF006E&text_color=8B949E&icon_color=8338EC" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=aaadityasngh&show_icons=true&hide_border=false&border_radius=0&include_all_commits=true&count_private=true&bg_color=FFFDF7&title_color=000&text_color=333&icon_color=FFD600&border_color=000" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaadityasngh&layout=compact&hide_border=true&border_radius=12&langs_count=8&bg_color=0D1117&title_color=FF006E&text_color=8B949E" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aaadityasngh&layout=compact&hide_border=false&border_radius=0&langs_count=8&bg_color=FFFDF7&title_color=000&text_color=333&border_color=000" height="170"/>
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aaadityasngh&hide_border=true&border_radius=12&background=0D1117&ring=FF006E&fire=FF006E&currStreakLabel=8338EC&sideLabels=3A86FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" width="58%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=aaadityasngh&hide_border=false&border_radius=0&background=FFFDF7&ring=FFD600&fire=FF5733&currStreakLabel=000&sideLabels=000&currStreakNum=000&sideNums=333&dates=666&border=000" width="58%"/>
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaadityasngh&hide_border=true&radius=12&bg_color=0D1117&color=8B949E&line=FF006E&point=3A86FF&area_color=8338EC&area=true" width="92%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aaadityasngh&hide_border=false&radius=0&bg_color=FFFDF7&color=333&line=FFD600&point=000&area_color=FFD600&area=true&custom_title=Contribution%20Graph" width="92%"/>
 
 </div>
+
+<br/>
 
 <div align="center"><img src="./assets/divider.svg" width="100%"/></div>
 
-<!-- ─── ROADMAP ─── -->
-## 🗺️ &nbsp;Engineering Roadmap
-
-> Day-by-day public build toward production-grade AI engineering.
-
-```
-  ┌─────────────────────────────────────────────────────────────┐
-  │                                                             │
-  │   🤖  Production LLM Systems                               │
-  │   📚  RAG-based Applications                               │
-  │   ☁️   Scalable ML Infrastructure                           │
-  │   🔬  Research → Production AI Engineering                  │
-  │                                                             │
-  │   status: in_progress ███████████░░░░░░░░░  55%             │
-  │                                                             │
-  └─────────────────────────────────────────────────────────────┘
-```
-
-<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
-
-<!-- ─── FUN ZONE ─── -->
-## 🎮 &nbsp;Fun Zone
-
-> *Take a break! Here's something fun for you.* 🕹️
-
-<details>
-<summary>🐍 <b>Python Puzzle #1</b> — What does this print? <i>(Click to reveal!)</i></summary>
 <br/>
 
-```python
-x = [1, 2, 3]
-y = x
-y.append(4)
-print(len(x))
-```
-
-**Answer:** `4` — Lists are mutable! `y = x` creates a reference, not a copy. Both `x` and `y` point to the same list. 🎯
-
-</details>
-
-<details>
-<summary>🤖 <b>AI Puzzle #2</b> — Spot the bug! <i>(Click to reveal!)</i></summary>
-<br/>
-
-```python
-import numpy as np
-data = np.array([1, 2, 3, 4, 5])
-normalized = data / data.mean
-print(normalized)
-```
-
-**Answer:** `data.mean` is a method, not a property! It should be `data.mean()` with parentheses. Without `()`, you're dividing by the method object itself! 🐛
-
-</details>
-
-<details>
-<summary>🧩 <b>Emoji Puzzle #3</b> — Decode this! <i>(Click to reveal!)</i></summary>
-<br/>
-
-`🐍 + 🔥 + 📊 = ???`
-
-**Answer:** **PyTorch!** &nbsp; (Python 🐍 + Torch/Fire 🔥 + Data 📊) 🎉
-
-</details>
+<!-- ▓▓▓ CONNECT ▓▓▓ -->
+## 🤝 Let's Talk
 
 <div align="center">
 
-🕹️ &nbsp; **Bored?** &nbsp; [Play 2048 →](https://play2048.co) &nbsp;|&nbsp; [Play Wordle →](https://www.nytimes.com/games/wordle/index.html)
-
-</div>
-
-<div align="center"><img src="./assets/divider.svg" width="100%"/></div>
-
-<!-- ─── VIBE CHECK ─── -->
-## ✨ &nbsp;Vibe Check
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/build-shipping-FF006E?style=flat-square&logo=rocketdotchat&logoColor=white" alt="build"/>
-&nbsp;
-<img src="https://img.shields.io/badge/mood-caffeinated-8338EC?style=flat-square&logo=buymeacoffee&logoColor=white" alt="mood"/>
-&nbsp;
-<img src="https://img.shields.io/badge/LLMs_debugged-∞-3A86FF?style=flat-square&logo=openai&logoColor=white" alt="LLMs"/>
-&nbsp;
-<img src="https://img.shields.io/badge/notebooks_killed-many-FF006E?style=flat-square&logo=jupyter&logoColor=white" alt="notebooks"/>
-
-<br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" alt="Dev Quote" width="65%"/>
-
-</div>
-
-<div align="center"><img src="./assets/bg-pattern.svg" width="100%"/></div>
-
-<!-- ─── CONNECT ─── -->
-## 🤝 &nbsp;Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/Let's_connect_on_LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=3A86FF" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/adityasingh-julyai/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;&nbsp;
-<a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Shoot_me_an_email-0D1117?style=for-the-badge&logo=gmail&logoColor=FF006E" alt="Email"/></a>
+<a href="mailto:ddeaditya@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
-<br/>
+<br/><br/>
 
 ```
-💬 Open to: collabs • ML consulting • building cool stuff • memes about gradient descent
+💬 Open to:  full-time roles  •  ML consulting  •  collabs  •  building cool AI stuff
 ```
 
 </div>
 
-<!-- ─── FOOTER ─── -->
+<br/>
+
+<!-- ▓▓▓ FOOTER ▓▓▓ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,28&height=80&section=footer&text=&fontSize=1" width="100%"/>
+<img src="./assets/bg-pattern.svg" width="100%"/>
 
-**`⚡ Engineering AI systems that scale beyond notebooks.`**
-
-<sub>
-<img src="https://img.shields.io/badge/built_with-☕_+_🤖_+_💡-0D1117?style=flat-square" />
-&nbsp;·&nbsp;
-<img src="https://img.shields.io/badge/powered_by-too_much_chai-0D1117?style=flat-square" />
-&nbsp;·&nbsp;
-<img src="https://img.shields.io/badge/debugged_at-2AM-0D1117?style=flat-square" />
-</sub>
+**`⚡ I don't just train models — I ship systems that run them.`**
 
 <br/>
 
-<sub>if you read this far, you're either a recruiter or an LLM. either way — let's talk. 🤝</sub>
+<sub>built with mass ☕ + 🤖 + too much ambition &nbsp;·&nbsp; debugged at 2 AM &nbsp;·&nbsp; shipped before sunrise</sub>
+
+<br/>
+
+<sub>if you read this far — you're either a recruiter or an LLM. either way, let's talk 🤝</sub>
 
 </div>
